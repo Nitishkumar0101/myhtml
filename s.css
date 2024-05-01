@@ -1,0 +1,50 @@
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 2px;
+    background-color:white;
+    margin: 20px auto;
+    margin-left: 600px;
+}
+
+.cell {
+    background-color: #0edb71;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right:5px ;
+}
+
+.cell:hover {
+    background-color: #e6091f;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #7017b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
